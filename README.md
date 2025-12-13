@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+# Books - React Book Listing Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based book listing application that displays a curated collection of self-help and motivational books with an interactive user interface.
 
-## Available Scripts
+## 📖 Overview
 
-In the project directory, you can run:
+This project is a simple yet elegant book listing application built with React. It showcases various books with their covers, titles, authors, and prices, allowing users to browse and add books to their cart.
+
+## 📸 Screenshot
+
+![Books Application Home Page](./public/home.png)
+
+## ✨ Features
+
+- **Book Display**: Grid layout showcasing multiple books with cover images
+- **Book Details**: Each book displays title, author, and price information
+- **Interactive UI**: "Add to Cart" functionality for each book
+- **Responsive Design**: Clean and modern styling with custom CSS
+- **Component-Based Architecture**: Modular React components for maintainability
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone <repository-url>
+cd books
+```
+
+1. Install dependencies:
+
+```bash
+npm install
+```
+
+1. Start the development server:
+
+```bash
+npm start
+```
+
+The application will open at [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Project Structure
+
+```text
+books/
+├── public/
+├── src/
+│   ├── Book.js          # Individual book component
+│   ├── BookList.js      # Book list container component
+│   ├── books.js         # Book data array
+│   ├── index.css        # Global styles
+│   └── index.js         # Application entry point
+├── package.json
+└── README.md
+```
+
+## 🛠️ Available Scripts
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Runs the app in development mode at [http://localhost:3000](http://localhost:3000)
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner in interactive watch mode
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Builds the app for production to the `build` folder
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📚 Components
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Book Component
 
-### `npm run eject`
+Displays individual book information including:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Book cover image
+- Title
+- Author
+- Price
+- Add to Cart button
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### BookList Component
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Renders a collection of books in a grid layout using the Book component
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🎨 Styling
 
-## Learn More
+The application uses custom CSS with a modern design featuring:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Grid-based layout for book cards
+- Hover effects on interactive elements
+- Responsive design principles
+- Clean typography and spacing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🔧 Technologies Used
 
-### Code Splitting
+- **React** (v19.2.3) - UI library
+- **React DOM** (v19.2.3) - DOM rendering
+- **React Scripts** (v5.0.1) - Build tooling
+- **Create React App** - Project bootstrapping
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📝 Notes
 
-### Analyzing the Bundle Size
+This project was initially configured to work with the [Potter API](https://potterapi-fedeperin.vercel.app/en/books) for fetching Harry Potter book data. The current version uses a static book array with self-help and motivational books.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🤝 Contributing
 
-### Making a Progressive Web App
+Feel free to fork this project and submit pull requests for any improvements.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📄 License
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is open source and available under the MIT License.

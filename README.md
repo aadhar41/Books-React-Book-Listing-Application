@@ -30,7 +30,8 @@ This project is a simple yet elegant book listing application built with React. 
 1. Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/aadhar41/Books-React-Book-Listing-Application.git
+
 cd books
 ```
 

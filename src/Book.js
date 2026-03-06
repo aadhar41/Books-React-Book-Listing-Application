@@ -8,7 +8,7 @@ const Book = (props) => {
 
     return (
         <article className="book">
-            <img src={image} alt="Book Image" className="book-image" />
+            <img src={image} alt={title} className="book-image" />
             <h1 className="book-title">{title}</h1>
             <h2 className="book-author">{author}</h2>
             <h3 className="book-price">{price}</h3>

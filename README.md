@@ -1,5 +1,8 @@
 # Books - React Book Listing Application
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](CONTRIBUTING.md)
+
 A modern, responsive React-based application designed to showcase a curated collection of motivational and self-help literature. This project demonstrates a clean, component-oriented architecture with a focus on visual presentation and user interaction.
 
 ## ✨ Key Features
@@ -12,9 +15,9 @@ A modern, responsive React-based application designed to showcase a curated coll
 
 ## 📸 Screenshots
 
-### Home Page
-
-![Books Application Home Page](./public/home.png)
+| Home Page |
+| :---: |
+| ![Books Application Home Page](./public/home.png) |
 
 ## 🚀 Recent Improvements
 
@@ -71,6 +74,10 @@ books/
 
    The application will be accessible at [http://localhost:3000](http://localhost:3000).
 
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) and [Code of Conduct](CODE_OF_CONDUCT.md) for more information.
+
 ## 📄 Available Scripts
 
 - `npm start`: Runs the app in development mode.
@@ -79,4 +86,4 @@ books/
 
 ## 📝 License
 
-This project is specialized for educational and portfolio purposes.
+This project is licensed under the [MIT License](LICENSE). Specialized for educational and portfolio purposes.
